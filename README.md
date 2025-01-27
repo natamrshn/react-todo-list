@@ -33,9 +33,11 @@ Getting started with the Todo App is easy! Just follow these steps:
    npm install
    ```
 
-3. ** Run App**
+2. **Run App**  
+   ```bash
+   npm start
+   ```
+ ## 🌐 Live Demo  
 
-````bash
-      npm start
-      ```
-````
+Visit the live demo:  
+[**ToDo App**](https://natamrshn.github.io/react-todo-list/)
