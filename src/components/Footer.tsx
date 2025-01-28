@@ -31,7 +31,7 @@ export const Footer: React.FC<Props> = ({
   return (
     <footer className="todoapp__footer" data-cy="Footer">
       <span className="todo-count" data-cy="TodosCounter">
-        {remainingTodos} items left
+        {remainingTodos} {remainingTodos === 1 ? 'item' : 'items'} left
       </span>
 
       <nav className="filter" data-cy="Filter">
